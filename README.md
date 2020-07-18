@@ -114,3 +114,27 @@ We have provided test data for all the resources.
 - From the React application show a list of all _projects_ using the API you built.
 - Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details.
 - Add styling!
+
+Backend Information
+
+Method  	    Description	                                 Endpoint
+POST	        Create a Project	                        /projects
+GET	            Get * Projects	                            /projects
+GET	            Gets a specific Project	                    /projects/:id
+PUT 	        Edits/Update specific Project	            /projects/:id
+DELETE	        Delete specific Project	                    /projects/:id
+GET	            Gets specific Project Actions	            /projects/:id/actions
+POST	        Create action for specific project	        /projects/:id/actions
+GET	            Gets * actions	                            /actions
+GET	            Gets specific action	                    /actions/:id
+PUT	            Edits/Update specific Action	            /actions/:id
+DELETE	        Delete specific Actions	                    /actions/:id
+
+POSTMAN Link:
+
+https://documenter.getpostman.com/view/11310730/T1DjjeUp
+
+API Deployement Link:
+
+https://dcurry-api-sprint-challenge.herokuapp.com/api/actions
+https://dcurry-api-sprint-challenge.herokuapp.com/api/projects
